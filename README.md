@@ -1,16 +1,21 @@
-##Description
+## Description
+This is a script for deepvoice3 voice-synthesizer
 
-##Links of compiled versions
+## Usage
+### Windows
 
-##Usage
-###Windows
 `synthesize.exe "./checkpoint_step000200000_22hz_16bit.pth" "./20180505_deepvoice3_ljspeech.json" "This is a test of exe" "test.wav"`
-###Linux
+
+### Linux
+
 `./synthesize "./checkpoint_step000200000_22hz_16bit.pth" "./20180505_deepvoice3_ljspeech.json" \ "This is a test of exe" "test.wav"`
+
 ###Via Python
+
 `main.py "./checkpoint_step000200000_22hz_16bit.pth" "./20180505_deepvoice3_ljspeech.json" \ "This is a test of exe" "test.wav"`
 
-##How to build own
+## How to build own
+
 1. Install anaconda
 2. Install python 3.5
 3. Install requirements for your system
