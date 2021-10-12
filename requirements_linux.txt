@@ -5,7 +5,7 @@ tensorboardx==1.6
 librosa==0.6.3
 nltk>=3.4.5
 nnmnkwii==0.0.19
-opencv-python==3.4.5.20
+opencv-python==3.4.7.28
 https://download.pytorch.org/whl/cpu/torchvision-0.4.0%2Bcpu-cp35-cp35m-manylinux1_x86_64.whl
 https://download.pytorch.org/whl/cpu/torch-0.4.1-cp35-cp35m-linux_x86_64.whl
 -e git+https://github.com/r9y9/deepvoice3_pytorch@bc90c403e5f3ef7d3dd08621f7a7d2637e7d95dc#egg=deepvoice3_pytorch
